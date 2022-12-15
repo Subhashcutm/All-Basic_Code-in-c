@@ -1,0 +1,12 @@
+// Write a program to swapping number 
+#include<stdio.h>
+int main(){
+    int a,b,c;  // a=10 and b=20
+    printf("Before swapping\n");
+    scanf("%d%d",&a,&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("after swapping a=%d and b=%d",a,b);
+    return 0;
+}
